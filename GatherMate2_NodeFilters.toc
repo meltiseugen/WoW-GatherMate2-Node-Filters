@@ -1,7 +1,7 @@
 ## Interface: 120000, 120001, 120005
 ## Title: GatherMate2: Node Filters
 ## Notes: Adds a world map button for quickly toggling GatherMate2 node subtypes.
-## Author: Local
+## Author: Eugen
 ## Version: 1.0.0
 ## Dependencies: GatherMate2
 ## OptionalDeps: RareScanner, HandyNotes_Midnight, Krowi_AchievementFilter, WorldMapTrackingEnhanced
