@@ -28,6 +28,6 @@ jobs:
 
     - uses: BigWigsMods/packager@master
       with:
-        args: -l -p 1516778
+        args: -l -p 1523514
       env:
         CF_API_KEY: ${{ secrets.CURSEFORGE_KEY }}
