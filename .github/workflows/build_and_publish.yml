@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  push:
+    branches:
+    - main
+    tags:
+    - '*'
+
+    paths-ignore:
+    - ".github/**"
+    - "README.md"
+    - ".luarc.json"
+    - "annotations.lua"
+    - "AssetsRaw*"
+    - .vscode/**
+    - .idea/**
+    - check.sh
+    - release.ps1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - uses: BigWigsMods/packager@master
+      with:
+        args: -l -p 1516778
+      env:
+        CF_API_KEY: ${{ secrets.CURSEFORGE_KEY }}

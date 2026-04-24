@@ -1,0 +1,14 @@
+## Interface: 120000, 120001, 120005
+## Title: GatherMate2: Node Filters
+## Notes: Adds a world map button for quickly toggling GatherMate2 node subtypes.
+## Author: Local
+## Version: 1.0.0
+## Dependencies: GatherMate2
+## OptionalDeps: RareScanner, HandyNotes_Midnight, Krowi_AchievementFilter, WorldMapTrackingEnhanced
+## SavedVariables: GatherMate2NodeFiltersDB
+## IconTexture: Interface\AddOns\GatherMate2\Artwork\Icon.tga
+
+Libs\LibStub\LibStub.lua
+Libs\LibUIDropDownMenu\LibUIDropDownMenu.lua
+Libs\LibUIDropDownMenu\LibEasyMenu.lua
+GatherMate2_NodeFilters.lua
