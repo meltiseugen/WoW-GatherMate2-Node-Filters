@@ -1,0 +1,18 @@
+{
+    "Lua.diagnostics.globals": [
+        "SlashCmdList",
+        "WorldMapFrame",
+        "UISpecialFrames",
+        "UIDROPDOWNMENU_MAXLEVELS",
+        "ExecuteFrameScript",
+        "ColorPickerFrame",
+        "DropDownMenuButtonMixin",
+        "VIDEO_QUALITY_LABEL6",
+        "Clamp",
+        "SOUNDKIT",
+        "TooltipBackdropTemplateMixin",
+        "SharedTooltip_SetBackdropStyle",
+        "GameTooltip_Hide",
+        "GameTooltip_AddErrorLine"
+    ]
+}

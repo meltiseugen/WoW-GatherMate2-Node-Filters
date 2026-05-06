@@ -18,7 +18,7 @@ local DEFAULTS = {
 	enabledTypesOnly = true,
 }
 
-local DEFAULT_UNCHECKED_VERSION = 1
+local DEFAULT_UNCHECKED_VERSION = 2
 local MAP_BUTTON_LEFT_OFFSET = 3
 
 local GM
@@ -757,7 +757,7 @@ local function CreateMapButton()
 	local icon = button:CreateTexture(nil, "ARTWORK")
 	icon:SetTexture("Interface\\AddOns\\GatherMate2\\Artwork\\Icon.tga")
 	icon:SetSize(20, 20)
-	icon:SetPoint("CENTER", button, "CENTER", 0, 0)
+	icon:SetPoint("CENTER", button, "CENTER", 5, 0)
 
 	local border = button:CreateTexture(nil, "OVERLAY")
 	border:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
