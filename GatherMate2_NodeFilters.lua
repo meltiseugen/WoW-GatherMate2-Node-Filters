@@ -757,7 +757,7 @@ local function CreateMapButton()
 	local icon = button:CreateTexture(nil, "ARTWORK")
 	icon:SetTexture("Interface\\AddOns\\GatherMate2\\Artwork\\Icon.tga")
 	icon:SetSize(20, 20)
-	icon:SetPoint("CENTER", button, "CENTER", 5, 0)
+	icon:SetPoint("CENTER", button, "CENTER", 2, 0)
 
 	local border = button:CreateTexture(nil, "OVERLAY")
 	border:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
