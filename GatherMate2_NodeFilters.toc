@@ -2,7 +2,7 @@
 ## Title: GatherMate2: Node Filters
 ## Notes: Adds a world map button for quickly toggling GatherMate2 node subtypes.
 ## Author: Eugen
-## Version: 1.1.0
+## Version: 1.2.0
 ## Dependencies: GatherMate2
 ## OptionalDeps: RareScanner, HandyNotes_Midnight, Krowi_AchievementFilter
 ## SavedVariables: GatherMate2NodeFiltersDB
